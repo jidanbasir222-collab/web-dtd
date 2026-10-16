@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --ui-yellow: #fcb900;
+  --ui-gold: #e5a93b;
+  --ui-dark: #121316;
+}
+
+body {
+  font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* Custom smooth transitions */
+a, button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #fcb900;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d49b00;
+}
